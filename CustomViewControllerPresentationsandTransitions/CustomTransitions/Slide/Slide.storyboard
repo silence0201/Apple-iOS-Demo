@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fFd-Ls-daP">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fFd-Ls-daP">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Third View-->
@@ -14,17 +18,17 @@
                         <viewControllerLayoutGuide type="bottom" id="Uag-1A-zBZ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="imx-LQ-lfv">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ray-5t-ha9">
-                                <rect key="frame" x="259" y="228" width="83" height="144"/>
+                                <rect key="frame" x="146" y="261.5" width="83" height="144"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.25" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.78800884049999997" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.78800884049999997" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ray-5t-ha9" firstAttribute="top" secondItem="imx-LQ-lfv" secondAttribute="top" id="Lgv-Xg-18y"/>
                             <constraint firstAttribute="centerX" secondItem="ray-5t-ha9" secondAttribute="centerX" id="TyE-IR-uJT"/>
@@ -59,17 +63,17 @@
                         <viewControllerLayoutGuide type="bottom" id="PNa-qT-MPq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZsU-iu-581">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9P8-Va-SnS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="B" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9P8-Va-SnS">
                                 <rect key="frame" x="263" y="228" width="74" height="144"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.25" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="9P8-Va-SnS" secondAttribute="centerY" id="dpU-99-FJj"/>
                             <constraint firstAttribute="centerX" secondItem="9P8-Va-SnS" secondAttribute="centerX" id="mco-bG-y0b"/>
@@ -97,7 +101,7 @@
                 <navigationController id="PNm-Lo-Jw0" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Third View" id="B4i-85-EDa"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ppO-Rf-a7s">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -114,7 +118,7 @@
                 <navigationController id="nqe-i9-mjD" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Second View" id="xv8-6M-lS9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1b8-Xg-tjF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -131,7 +135,7 @@
                 <navigationController id="UYf-qW-yWP" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="First View" id="M3L-Tp-Sjp"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3PF-2G-Myd">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -151,17 +155,17 @@
                         <viewControllerLayoutGuide type="bottom" id="SeZ-BA-GJ5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="HJJ-Fh-GXy">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XdL-ZF-Cki">
-                                <rect key="frame" x="262" y="228" width="76" height="144"/>
+                                <rect key="frame" x="149.5" y="261.5" width="76" height="144"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.25" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.90146998359999997" green="0.90003083880000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.90146998359999997" green="0.90003083880000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="XdL-ZF-Cki" secondAttribute="centerY" id="V9F-p1-m89"/>
@@ -190,7 +194,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Luc-Gl-rvL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="UYf-qW-yWP" kind="relationship" relationship="viewControllers" id="YV5-AV-2Nb"/>
